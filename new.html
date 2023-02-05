@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ischool ki site</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    html{
+      scroll-behavior: smooth;
+    }
+    body {
+        font-family: 'baloo bhai','Ubuntu';
+
+       
+        margin: 0px;
+        padding: 0px;
+        background-image: url("ischool.jpg");
+        background-color: rgb(183, 215, 218);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+        #left{
+            display: inline-block;
+        }
+        #left{
+            display: inline-block;
+            position: absolute;
+           left: 5px;
+           top:8px;
+           
+        }
+        #left img{
+          position: absolute;
+          top:0px;
+          margin: 0px 0px;
+          width:55px;
+          height: 55px;
+          opacity: 0.8;
+          border: 1px solid black;
+          border-radius: 10%;
+        
+        }
+        #right{
+            position: absolute;
+           right: 5px;
+           top: 8px;
+
+            display: inline-block;
+        }
+        #mid{
+            width: 39%;
+            font-size: 26px;
+            margin: auto;
+            text-align: center;
+            margin-right: 450px;
+        }
+        .nav1{
+            display: block;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            padding: 3px 10px;
+            text-decoration: none;
+            color: black;
+
+
+        }
+        ul{    display: flex;
+              margin: 12px;
+              padding-left: 0px;
+              
+        }
+        .btn{
+            margin: 0px 9px;
+        }
+        
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color:  #902886;
+        color: white;
+        padding: 4px 14px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .form-check{
+      text-align: center;
+    }
+    .col{
+      text-align: center;
+    }
+    .btn:hover {
+        animation-duration: 0.5s;
+        background-color: rgb(102, 43, 94);
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(65, 147, 117);
+
+    }
+    .container {
+        border: 4px solid rgb(0, 0, 0);
+        margin: 106px 80px;
+        background-color: #cbd8d3;
+        border-radius: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-items: stretch;
+        
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+       
+    }
+    .container2{
+      
+      margin: 20px;
+    }
+    .container1{
+               margin: auto;
+    width: 94%;
+            
+            display: flex;
+        justify-content: space-evenly;
+    }
+    .item{
+        display:block;
+    }
+    .logo{
+      border: 2px solid black;
+      border-radius: 50%;
+      width: 175px;
+    
+    } 
+  
+  
+  .headname{
+    display: inline-block;
+  
+  }
+  #top1 {
+    position: relative;
+    top: 10px;
+    margin-top: 0px;
+    left: 81px;
+}
+  #top2{
+    margin-top: 0px;
+    position: relative;
+    top:30px;
+    left: 0px;
+
+  }
+  .nav1{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    background-color: #579da9;
+  }
+  form .btn{
+    margin-left: 47px;
+  }
+  #box1{
+    display: inline-block;
+    
+    
+  }
+  #box1 img{
+    width: 400px;
+  }
+  #box2{
+    position: absolute;
+    border-radius: 30px;
+    margin-left: 100px;
+    width:55%;
+    display: inline-block;
+
+  }
+  #box2 p{
+    font-size: 25px;
+  }
+  #box3{
+    display: block;
+    margin: 0px 5px 
+
+  }
+  #box3 p{
+
+    font-size: 20px;
+  }
+  .principal{
+    border: 4px solid black;
+    border-radius: 20px;
+    margin: 25px 50px;
+  }
+</style>
+
+<body>
+   
+    <div class="nav1">
+      <div class="navbar" id="left">
+          <img src="schoollogo.jpeg" alt="#">
+      </div>
+      <div class="headname">
+        <h2 id="top1">The KVL</h2>
+      </div>
+      <div class="headname">
+        <h2 id ="top2">School</h2>
+      </div>
+      <div class="navbar" id="mid">
+          <ul>
+              
+             <li> <a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Our Vision</a></li>
+             <li><a href="#">Our Trainers</a></li>
+          </ul>   
+      </div>
+      <div class="navbar" id="right">
+          <button class="btn">Call Us Now</button>
+              <button class="btn">Email Us</button>
+      </div>
+  </div>
+    <div id="content">
+			
+      <marquee direction="backward" scrolldelay="50" width="auto" onmouseover="stop()" onmouseout="start()" style="color:black; background-color:#76CEE4; padding-bottom:-5px;"><p id="text1" style="font-family:Arial; font-size:14px;font-weight:bold;padding:0px; text-align:justify; "> We are Hiring Teaching Faculty <a href="https://pasbokaro.com/Career.aspx"> *** Click Here to Know More --- </a>  Few Seats for Girl Candidates only Available in Nursery to Class 8 - Contact School office with original Documents -<a href="#"> Click to know more! ***   </a>We are Hiring Staff - Apply for Vacancies in Session 2023-24- <a>  *** <a href="https://pasbokaro.com/Career.aspx">*** Click Here to Read Information and Apply ***  </a> </p></marquee>
+      
+     
+      <div id="inner-content" class="wrap clearfix">
+                  
+    
+         
+           <div class="twelvecol clearfix ">
+      <div id="amazingslider" style="display:block;position:relative;margin:16px auto 20px;">
+      <ul id="ulban" class="amazingslider-slides" style="display:none;"><li><img src="SlideImages/A1.jpg"' /></li><li><img src="SlideImages/IMG-20220824-WA0005.jpg"' /></li><li><img src="SlideImages/jee.jpg"' /></li><li><img src="SlideImages/1.jpg"' /></li><li><img src="SlideImages/Combined Picture.jpg"' /></li><li><img src="SlideImages/1_20220722_161432_0000.png"' /></li><li><img src="SlideImages/1_20220722_161019_0000.png"' /></li><li><img src="SlideImages/web.JPG"' /></li></ul>
+  </div>
+          
+      </div>
+    <div  class="container">
+    <div class="container2">
+        <h1>We are taking admissions for 2022-23 batch NOW!!!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>  
+ </form>
+  
+    </div>
+    <div class="container2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eaque aspernatur unde dolorum magni odio cum aperiam ab accusantium vitae error, saepe sunt? Quas quos id unde quam debitis vel odit, esse at reprehenderit magnam dolor laboriosam aliquam quae quibusdam eius nam? Veniam, voluptatibus.
+    </div>
+  </div>
+  <div class="principal">
+    <div class="content2" id="box1"><img src="principal.jpg" alt="#"></div>
+    <div class="content2" id="box2">
+      <h2>From the Princpal's Desk</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem rerum aut, at unde, sint delectus autem debitis, sit ipsa similique! Consequatur quasi asperiores dolorum assumenda porro earum sapiente nostrum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sit id fuga ipsam. Labore molestias, recusandae tenetur est fugiat voluptate iste saepe quia laudantium voluptatum, earum ratione id, minima maiores Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, sapiente..</p>
+    </div>
+    <div class="content2" id="box3">
+      <h2>OUR VISION</h2>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatem rerum aut, at unde, sint delectus autem debitis, sit ipsa similique! Consequatur quasi asperiores dolorum assumenda porro earum sapiente nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem eos incidunt quae, cupiditate quasi enim odio blanditiis laboriosam fugit dicta nostrum! Labore quia id illum rem nesciunt voluptatum porro aliquam.
+      </p>
+    </div>
+  </div>
+
+    <div class="container1">
+        <div class="item" id="item-1"><form>
+            <h2>Students Login</h2>
+            <div class="log">
+            <img src="stlogo1.png"  class="logo"id="stlogo"alt="#">
+          </div><!-- Email inp
+              ut -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form2Example1" placeholder="Email address" class="form-control" />
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form2Example2" placeholder="Password" class="form-control" />
+            </div>
+          
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                  <label class="form-check-label" style="color:#4a3e2e" for="form2Example31"> Remember me </label>
+                </div>  
+              </div>
+          
+              <div class="col">
+                <!-- Simple link -->
+                <a href="#!">Forgot password?</a>
+              </div>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+          
+           
+          </form>
+        </div>
+        
+        <div class="item" id="item-2"><form>
+            <h2>Teachers Login</h2>
+            <div class="log">
+            <img src="teacherlogo1.png"  class="logo" alt="#">
+           </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form2Example1" placeholder="Email address" class="form-control" />
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form2Example2" placeholder="Password" class="form-control" />
+            </div>
+          
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                  <label class="form-check-label" id="form-check-color" style="color:#4a3e2e" for="form2Example31"> Remember me </label>
+                </div>
+              </div>
+          
+              <div class="col">
+                <!-- Simple link -->
+                <a href="#!">Forgot password?</a>
+              </div>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+          
+           
+          </form>
+        </div>
+        
+        <div class="item" id="item-3"><form>
+            <h2>Parent login</h2>
+            <div class="log">
+            <img src="ptlogo.png"  class="logo" alt="#">
+           </div> <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form2Example1" placeholder="Email address" class="form-control" />
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form2Example2" placeholder="Password" class="form-control" />
+            </div>
+          
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                  <label class="form-check-label" style="color:#4a3e2e" for="form2Example31"> Remember me </label>
+                </div>
+              </div>
+          
+              <div class="col">
+                <!-- Simple link -->
+                <a href="#!">Forgot password?</a>
+              </div>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+          
+           
+          </form>
+        </div>
+       
+    </div>
+</body>
+
+</html>
